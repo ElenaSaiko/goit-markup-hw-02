@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -23,39 +22,42 @@
   </head>
   <body>
     <header class="page-header">
-      <nav class="header-nav">
-        <a class="logo header-logo" href="./index.html"
-          >Web<span class="logo-part">Studio</span></a
-        >
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">Studio</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <ul class="contacs-list">
-          <li class="contacts-item">
-            <a class="contacs-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contacts-item">
-            <a class="contacs-link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="logo header-logo" href="./index.html"
+            >Web<span class="logo-part">Studio</span></a
+          >
+          >
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="contacs-list">
+            <li class="contacts-item">
+              <a class="contacs-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-item">
+              <a class="contacs-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
-    <main>
-      <section>
+    <main class="page-main">
+      <section class="page-section1">
         <h1>Effective Solutions for Your Business</h1>
         <button type="button">Order Service</button>
       </section>
-      <section>
+      <section class="page-section2">
         <h2 hidden>Features</h2>
         <ul>
           <li>
@@ -88,7 +90,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="page-section3">
         <h2>Our Team</h2>
         <ul>
           <li>
@@ -137,6 +139,7 @@
     <footer class="page-footer">
       <a class="logo header-logo" href="./index.html"
         >Web<span class="logo-part">Studio</span></a
+      >
       >
       <p>
         Increase the flow of customers and sales for your business with digital
