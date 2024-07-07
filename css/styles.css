@@ -1,6 +1,4 @@
-*font-family: "Raleway", sans-serif;
-font-family: "Roboto", sans-serif;
-*/ body {
+.body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
@@ -118,3 +116,87 @@ a {
   background-color: #2e2f42;
 }
 /*main*/
+.main {
+}
+/*Hero-image*/
+.container-hero {
+  width: 500px;
+}
+
+.page-hero {
+  background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.text-hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  max-width: 496px;
+  padding-bottom: 48px;
+}
+
+.button-hero {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+/*Our Team*/
+
+.page-team {
+  background-color: #f4f4fd;
+}
+
+.title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.img-team {
+  background-color: #ffffff;
+}
+
+.name-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.text-team {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
