@@ -163,6 +163,51 @@ a {
   background-color: #404bbf;
 }
 
+/*Section 1*/
+.section1-main {
+  padding: 120px 0;
+}
+
+.text-section1-1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list-section1 {
+  display: flex;
+  gap: 24px;
+}
+
+.list-section1-page {
+  max-width: calc((100% - 24px * 3) / 4);
+}
+
+.text-section1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.p-section1 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /*Our Team*/
 
 .page-team {
