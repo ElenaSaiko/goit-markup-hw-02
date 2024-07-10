@@ -252,7 +252,7 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -260,11 +260,21 @@ a {
   text-transform: capitalize;
 }
 
+.images-section3 {
+  width: 360px;
+  height: 420px;
+  background: #fff;
+}
+
+.img-portfolio {
+  width: 360px;
+  height: 300px;
+}
+
 .name-images-content {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #ffffff;
@@ -274,11 +284,7 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.img {
-  display: block;
 }
