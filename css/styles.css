@@ -17,17 +17,13 @@ h5,
 h6,
 p {
   margin: 0;
-  padding: 0;
 }
+
+/*Header*/
 
 a {
   text-decoration: none;
   color: inherit;
-}
-
-/*header*/
-.page-header {
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -65,7 +61,7 @@ a {
   font-style: normal;
 }
 
-.contacts-link {
+.contacs-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -100,8 +96,8 @@ a {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button-hero:hover,
+.button-hero:focus {
   background-color: #404bbf;
 }
 
@@ -183,14 +179,7 @@ a {
 }
 
 .images-section3 {
-  width: 360px;
-  height: 420px;
   background: #fff;
-}
-
-.img-portfolio {
-  width: 360px;
-  height: 300px;
 }
 
 .name-images-content {
