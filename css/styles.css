@@ -103,7 +103,7 @@ a {
 
 /*Section 1*/
 
-.text-section1 {
+.text-section-pros {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -112,7 +112,7 @@ a {
   color: #2e2f42;
 }
 
-.p-section1 {
+.p-section {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
